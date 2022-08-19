@@ -1,0 +1,79 @@
+.loginText {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.successMessage {
+    color: green;
+    font-weight: bold;
+}
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+.maindivadd{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    width: 50rem;
+    margin: 20px auto;
+    margin-left: 20rem !important;
+    font-weight: bold;
+    box-shadow: 19px 25px 25px 5px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+.sub-btn{
+    width: 40rem;
+    margin-left: 20px;
+}
+.error{
+    color: red;
+    /* position: relative;
+    float:right !important; */
+    /* display:inline-flex;
+    justify-content: flex-end; */
+    right: 0;
+}
+
+.LabelDiv{
+    display: inline-flex;
+    column-gap: 420px;
+    
+}
+.maindivadd{
+    color: whitesmoke;
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(50,50,114,1) 42%, rgba(41,137,156,1) 100%);
+}
